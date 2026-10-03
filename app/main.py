@@ -1,5 +1,5 @@
 def main() -> None:
-    file_name = input("Enter the name of the data file: ")
+    file_name = input("Enter name of the file: ")
 
     with open(file_name + ".txt", "w") as new_file:
         while True:
