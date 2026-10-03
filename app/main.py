@@ -7,7 +7,7 @@ def main() -> None:
                 "Enter data to write to the file (or type 'exit' to stop): "
             )
 
-            if user_input == "exit":
+            if user_input == "stop":  # Change "exit" to "stop"
                 break
 
             new_file.write(user_input + "\n")
